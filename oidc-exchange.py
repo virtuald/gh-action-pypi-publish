@@ -71,6 +71,9 @@ If a claim is not present in the claim set, then it is rendered as `MISSING`.
 * `repository_owner_id`: `{repository_owner_id}`
 * `job_workflow_ref`: `{job_workflow_ref}`
 * `ref`: `{ref}`
+
+NOTE: If you are using a reusable workflow, see https://github.com/pypa/gh-action-pypi-publish/issues/166
+
 """
 
 # Rendered if the package index's token response isn't valid JSON.
